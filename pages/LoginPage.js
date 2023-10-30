@@ -4,7 +4,7 @@ import Login from '../components/login'
 
 const LoginPage = () => {
   return (
-    <div className='bg-darkBlue'>
+    <div className='bg-darkBlue' style={{height:'100vh'}}>
  <Login/>
     </div>
 
