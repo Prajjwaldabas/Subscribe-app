@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+  
+}
+
+
+form{
+  
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+    background: white;
+
+}
+
+.bg-darkBlue{
+  background-color: #204D91;
+}
+.color-darkBlue{
+  color: #204D91;
+}
+
+.th-box {
+  width: 130px !important;
+  height: 130px !important;
+  text-align: center;
+  padding-top: 50px;
+  vertical-align: middle !important;
+  margin: 10px; 
+  color: white;
+  /* border: 2px solid #9d9d9d;  */
+
+}
+td{
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: grey;
+}
+
+.flex{
+  display: flex;
+
+}
+.fd-col{
+  flex-direction: column;
+}
+.jcc{
+  justify-content: center;
+
+}
+.aic{
+  align-items: center;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-70{
+  width: 70%;
+}
+tr{
+  display: flex;
+  width: 100%;
+  /* gap: 20px; */
+  justify-content: space-between;
+  
+  text-align: center;
+  align-items: center;
+ 
+
+}
+
+.p-20{
+  padding: 20px;
+}
+.col-white{
+  color: white;
+  
+}
+.jcsa{
+  justify-content: space-around;
+}
+.g-10{
+  gap: 10px;
+}
+.br-50{
+  border-radius: 50px;
+}
+.rounBtn{
+  border-radius: 30px;
+  color: #204D91;
+  padding: 10px;
+  background-color: white;
+}
+/* table{
+  width: 80% !important;
+} */
